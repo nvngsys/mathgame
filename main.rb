@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 
 require_relative './player'
 # require './question'
@@ -12,7 +11,7 @@ class Game
         player1 =  gets.chomp
         puts "Enter Player 2 name"
         player2 =  gets.chomp
-        
+
         @player1 = Player.new(player1)
         @player2 = Player.new(player2)
     end
